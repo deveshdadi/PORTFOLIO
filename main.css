@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    background:linear-gradient(
+        135deg,
+        #000000,
+        #071426,
+        #0A192F
+    );
+
+    color:white;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+section{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:2rem;
+
+}

@@ -1,0 +1,67 @@
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    padding:20px 50px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:rgba(0,0,0,0.8);
+
+    backdrop-filter:blur(10px);
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    font-size:1.4rem;
+
+    font-weight:bold;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:30px;
+
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    text-decoration:none;
+
+    color:white;
+
+    transition:0.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#3b82f6;
+
+}
+
+.hamburger{
+
+    display:none;
+
+    font-size:2rem;
+
+    cursor:pointer;
+
+}

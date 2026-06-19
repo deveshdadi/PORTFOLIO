@@ -1,0 +1,89 @@
+@media(max-width:768px){
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        gap:50px;
+
+    }
+
+    .hero-content{
+
+        width:100%;
+
+    }
+
+    .hero-image{
+
+        width:100%;
+
+    }
+
+    .hero-name{
+
+        font-size:2.8rem;
+
+    }
+
+    .typing-text{
+
+        font-size:1.5rem;
+
+    }
+
+    .about-cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .skills-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .projects-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .nav-links{
+
+        position:absolute;
+
+        top:80px;
+
+        right:0;
+
+        width:220px;
+
+        background:#071426;
+
+        flex-direction:column;
+
+        padding:20px;
+
+        display:none;
+
+        border-radius:10px;
+
+    }
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+    .hamburger{
+
+        display:block;
+
+    }
+
+}
